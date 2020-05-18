@@ -16,12 +16,12 @@
     <body>
             <div id="container">
                 <form id="survey-form">
-                    <label id="name" for="name">Name:</label><br>
-                        <input class="text"type="text" name="name" required placeholder="Enter Your Name"><br>
-                    <label id="email" for="email">Email: </label><br>
+                    <label id="name-label" for="name">Name:</label><br>
+                        <input id="name" class="text"type="text" name="name" required placeholder="Enter Your Name"><br>
+                    <label id="email-label" for="email">Email: </label><br>
                         <input class="text" type="email" name="email" required placeholder="Enter Email Address"><br>
-                    <label id="age" for="age">Age (optional):</label><br>
-                        <input class="text" type="number" name="age" required placeholder="Age" min="13" max="105"><br>
+                    <label id="number-label" for="age">Age (optional):</label><br>
+                        <input class="text" id="number" type="number" name="age" required placeholder="Enter Age(optional)" min="13" max="105"><br>
                     <label id="current-role" for="current-role">Which option best describes your current role?</label><br>
                         <select id="dropdown">  
                             <option value="" disabled selected hidden>Select Current Role</option>
@@ -90,7 +90,7 @@
                     </label><br>
                     <label id="comments" for="comments" >Any other comments or suggestions?</label><br>
                     <textarea id="comments" name="comments" minlength="0" maxlength="150" size="50" placeholder="Enter Text Here"></textarea><br>
-                    <button class="button" type="submit">Submit</button>
+                    <button class="button" id ="submit" type="submit">Submit</button>
                 </form>
         </div>
         

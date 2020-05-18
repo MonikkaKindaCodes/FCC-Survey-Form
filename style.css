@@ -17,13 +17,10 @@ textarea{
     font-size: 20px;
 
 }
-header{
-    padding: 30px 30px 30px 30px;
-}
 #container{
     display: inline-block; 
     background-color: #5d5335;
-    padding: 60px 60px 60px 60px; 
+    padding: 80px 80px 80px 80px; 
     border-radius: 20px;
     opacity: 0.9;
     text-align: left;
@@ -51,7 +48,12 @@ input{
     font-weight: bold;
     font-size: 20px;
     padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
 
+}
+input[type=checkbox]{
+    height: 15px;
+    width: 15px;
 }
 .text{
     width: 100%;
@@ -68,5 +70,6 @@ input{
     margin: 5px 5px 5px 5px;
 
 }
+
 
 
