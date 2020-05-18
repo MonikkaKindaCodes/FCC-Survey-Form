@@ -7,21 +7,22 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     </head>
     <header>
-        <h1 id="title">FreeCodeCamp Survey Form</h1>
-            <p id="description">Thanks for taking the time to help us improve our platform</p>
+        <h1 id="title"><strong>FreeCodeCamp Survey Form</strong></h1>
+            <p id="description"><strong>Thanks for taking the time to help us improve our platform</strong></p>
     </header>
     <body>
             <div id="container">
                 <form id="survey-form">
-                    <label id="name" for="name">Name:</label>
-                        <input type="text" name="name" required placeholder="Enter Your Name"><br>
-                    <label id="email" for="email">Email: </label>
-                        <input type="email" name="email" required placeholder="Enter Email Address"><br>
-                    <label id="age" for="age">Age (optional)</label>
-                        <input type="number" name="age" required placeholder="Age" min="13" max="105"><br>
-                    <label id="current-role" for="current-role">Which option best describes your current role?</label>
+                    <label id="name" for="name">Name:</label><br>
+                        <input class="text"type="text" name="name" required placeholder="Enter Your Name"><br>
+                    <label id="email" for="email">Email: </label><br>
+                        <input class="text" type="email" name="email" required placeholder="Enter Email Address"><br>
+                    <label id="age" for="age">Age (optional):</label><br>
+                        <input class="text" type="number" name="age" required placeholder="Age" min="13" max="105"><br>
+                    <label id="current-role" for="current-role">Which option best describes your current role?</label><br>
                         <select id="dropdown">  
                             <option value="" disabled selected hidden>Select Current Role</option>
                             <option value="student">Student</option>
@@ -31,16 +32,17 @@
                             <option value="not-to-say">Prefer Not to Say</option>
                             <option value="other">Other</option>
                         </select><br>
-                    <label id="reccomendation" for="reccomendation">Would you reccomend freeCodeCamp to a friend?
-                        <input type="radio" value="yes" id="reccomendation">Yes
-                    </label>
-                    <label id="reccomendation" for="reccomendation">
-                        <input type="radio" value="no" id="reccomendation">No
-                    </label>
-                    <label id="reccomendation" for="reccomendation"></label>
-                    <input type="radio" value="maybe" id="reccomendation">Maybe
+                    <label id="reccomendation" for="reccomendation">Would you reccomend freeCodeCamp to a friend? <br>
+                        <input type="radio" value="yes" name="yes" id="reccomendation" checked>Yes
                     </label><br>
-                    <label id="features" for="features">What is your favorite feature of freeCodeCamp?</label>
+                    <label id="reccomendation" for="reccomendation">
+                        <input type="radio" value="no" name="no" id="reccomendation">No
+                    </label><br>
+                    <label id="reccomendation" for="reccomendation"></label>
+                    <label>
+                    <input type="radio" value="maybe" name="maybe" id="reccomendation">Maybe
+                    </label><br>
+                    <label id="features" for="features">What is your favorite feature of freeCodeCamp?</label><br>
                     <select id="dropdown">  
                         <option value="" disabled selected hidden>Select Current Role</option>
                         <option value="challenges">Challenges</option>
@@ -81,14 +83,14 @@
                         <input id="wiki" value="wiki" type="checkbox" name="wiki">Wiki
                     </label><br>
                     <label for="forum">
-                        <input id="forum" value="forum" type="checkbox" name="forum">Gitter Help Rooms
+                        <input id="forum" value="forum" type="checkbox" name="forum">Forum
                     </label><br>
                     <label for="courses">
-                        <input id="courses" value="courses" type="checkbox" name="courses">Gitter Help Rooms
+                        <input id="courses" value="courses" type="checkbox" name="courses">Addition Courses
                     </label><br>
                     <label id="comments" for="comments" >Any other comments or suggestions?</label><br>
-                    <textarea id="comments" name="comments" minlength="0" maxlength="150" size="20" placeholder="Enter Text Here"></textarea><br>
-                    <button type="submit">Submit</button>
+                    <textarea id="comments" name="comments" minlength="0" maxlength="150" size="50" placeholder="Enter Text Here"></textarea><br>
+                    <button class="button" type="submit">Submit</button>
                 </form>
         </div>
         
