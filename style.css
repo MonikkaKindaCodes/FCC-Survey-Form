@@ -8,6 +8,14 @@ html{
 body{
     text-align: center;
 }
+header{
+    display: inline-block; 
+    background-color: #5d5335;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 20px;
+    margin-bottom: 3.0em;
+}
 textarea{
     width: 100%;
     height: 70px;
@@ -17,12 +25,32 @@ textarea{
     font-size: 20px;
 
 }
+a{
+    color:#ffffff;
+}
+a:hover{
+    color:#000000;
+}
+footer{
+    text-align: center;
+    display: inline-block;
+    background-color: #5d5335;
+    opacity: 0.9;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 0.5em;
+}
+i{
+    font-size:40px;
+    margin: 1.0em;
+
+}
 #container{
     display: inline-block; 
     background-color: #5d5335;
     padding: 80px 80px 80px 80px; 
     border-radius: 20px;
-    opacity: 0.9;
+    opacity: 0.95;
     text-align: left;
    
 }
