@@ -42,7 +42,7 @@ footer{
 }
 i{
     font-size:40px;
-    margin: 1.0em;
+    margin: 0.5em;
 
 }
 #container{
@@ -97,6 +97,9 @@ input[type=checkbox]{
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 
+}
+.footer{
+    margin-top:20px;
 }
 
 
